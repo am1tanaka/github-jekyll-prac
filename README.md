@@ -4,6 +4,11 @@
 
 GitHub Pagesで、Jekyllを利用する練習用リポジトリー
 
+## 決定
+
+- パスを`/`から始めない相対パスなら開けるが、絶対パスが含まれているとうまく動作しない
+- 公開できない情報はリポジトリーから外して、jekyllにビルドさせるのが良さそう
+
 ## メモ
 
 https://docs.github.com/ja/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll より。
