@@ -19,7 +19,8 @@ https://jekyllrb.com/docs/deployment/
 - rsyncはいいぞ
 - 基本は、_siteフォルダーをhttpserverにアップロードすれば表示できる
 - GitHub Pagesで表示できないのは、リポジトリーにアップした内容がそのまま公開されるわけでなく、サイト内の相対パスが変化するため
-- _config.ymlか、site.githubで調整できるか調査
+- _config.ymlのdomain、url、baseurlを設定すると、リンクが設定された
+
 
 ## _config.yml
 
